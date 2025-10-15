@@ -1,0 +1,42 @@
+~/projects/fintech-portfolio/
+├── README.md                          # Main portfolio overview
+├── requirements.txt                   # All dependencies
+├── .gitignore                        # Ignore venv, data files, etc.
+├── 01_financial_instruments/
+│   ├── README.md                     # Module-specific explanation
+│   ├── bond_pricer.py
+│   ├── options_pricer.py
+│   └── 01_financial_instruments.ipynb
+├── 02_risk_metrics/
+│   ├── README.md
+│   ├── var_calculator.py
+│   └── 02_risk_metrics.ipynb
+├── 03_credit_risk/
+│   ├── README.md
+│   ├── credit_scoring.py
+│   ├── data/                         # Local data (gitignored)
+│   └── 03_credit_risk.ipynb
+├── 04_alm_basics/
+│   ├── README.md
+│   ├── alm_simulator.py
+│   └── 04_alm_basics.ipynb
+├── 05_regulation/
+│   ├── README.md
+│   ├── capital_calculator.py
+│   └── 05_regulation.ipynb
+├── 06_volatility_modeling/
+│   ├── README.md
+│   ├── garch_model.py
+│   └── 06_volatility_modeling.ipynb
+├── 07_fraud_detection/
+│   ├── README.md
+│   ├── fraud_detection.py
+│   └── 07_fraud_detection.ipynb
+├── 08_portfolio_optimization/
+│   ├── README.md
+│   ├── portfolio_optimizer.py
+│   └── 08_portfolio_optimization.ipynb
+└── projects/                          # Final showcase projects
+    ├── credit_default_predictor/
+    ├── portfolio_risk_dashboard/
+    └── crypto_volatility_forecaster/
